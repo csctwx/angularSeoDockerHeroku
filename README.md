@@ -9,7 +9,7 @@ Run `ng add @nguniversal/express-engine` to install the necessary prerequisites 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Product server
-Run `npm run build:ssr && npm run serve:ssr` for a universal deploying product server.
+Run `npm run build:ssr && npm run serve:ssr` or `yarn run build:ssr && yarn run serve:ssr` for a universal deploying product server.
 
 ## Code scaffolding
 
