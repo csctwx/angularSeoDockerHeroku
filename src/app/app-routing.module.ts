@@ -7,10 +7,12 @@ import { SecondComponent } from './second/second.component';
   declarations: [],
   imports: [
     RouterModule.forRoot([
-      {path: '', redirectTo: 'firstComponent', pathMatch: 'full'},
-      {path: 'firstComponent', component: FirstComponent},
-      {path: 'secondComponent', component: SecondComponent}
-    ])
+    { path: '', redirectTo: 'firstComponent', pathMatch: 'full' },
+    { path: 'firstComponent', component: FirstComponent },
+    { path: 'secondComponent', component: SecondComponent }
+], {
+    initialNavigation: 'enabled'
+})
   ],
   exports: [RouterModule]
 })

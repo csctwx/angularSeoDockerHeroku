@@ -16,7 +16,7 @@ import { AppRoutingModule } from './app-routing.module';
     MenuComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     HttpClientModule,
     AppRoutingModule,
   ],
