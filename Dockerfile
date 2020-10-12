@@ -1,5 +1,5 @@
 FROM node:14-alpine
-LABEL maintainer="Wen Xiong Tu <wen108.tu@gmail.com>"
+LABEL maintainer="Wen Xiong Tu <csctwx@msn.com>"
 WORKDIR /app
 COPY package.json /app
 COPY yarn.lock /app

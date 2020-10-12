@@ -11,6 +11,10 @@ Run `ng add @nguniversal/express-engine` to install the necessary prerequisites 
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Development SSR server
+
+Run `yarn run dev:ssr` for a dev server with server-side rendering. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
 ## Product SSR server
 Run `npm run build:ssr && npm run serve:ssr` or `yarn run build:ssr && yarn run serve:ssr` for a universal deploying product server.
 
@@ -22,7 +26,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-Run `yarn run build:ssr` to build the project with Server Side Render. The build artifacts will be stored in the `dist/` directory.
+Run `yarn run build:ssr` to build the project with server-side rendering. The build artifacts will be stored in the `dist/` directory.
 
 ## Running unit tests
 
