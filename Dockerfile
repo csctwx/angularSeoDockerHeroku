@@ -1,6 +1,5 @@
 FROM node:10-alpine
 LABEL maintainer="Wen Xiong Tu <wen108.tu@gmail.com>"
-RUN mkdir -p /app
 WORKDIR /app
 COPY package.json /app
 COPY yarn.lock /app
