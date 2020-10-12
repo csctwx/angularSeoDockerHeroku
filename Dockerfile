@@ -7,4 +7,4 @@ RUN yarn install
 COPY . /app
 RUN yarn run build:ssr
 EXPOSE 4000
-ENTRYPOINT [ "node", "dist/angularSeoServerless/server/main.js" ]
+ENTRYPOINT [ "node", "dist/angularSeo/server/main.js" ]

@@ -8,10 +8,10 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "dev:ssr": "ng run angularSeoServerless:serve-ssr",
-    "serve:ssr": "node dist/angularSeoServerless/server/main.js",
-    "build:ssr": "ng build --prod && ng run angularSeoServerless:server:production",
-    "prerender": "ng run angularSeoServerless:prerender"
+    "dev:ssr": "ng run angularSeo:serve-ssr",
+    "serve:ssr": "node dist/angularSeo/server/main.js",
+    "build:ssr": "ng build --prod && ng run angularSeo:server:production",
+    "prerender": "ng run angularSeo:prerender"
   },
   "private": true,
   "dependencies": {
