@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM node:14-alpine
 LABEL maintainer="Wen Xiong Tu <wen108.tu@gmail.com>"
 WORKDIR /app
 COPY package.json /app
